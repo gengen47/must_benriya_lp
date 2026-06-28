@@ -329,6 +329,19 @@ section {
   color: var(--primary-color);
 }
 
+.header-logo-img {
+  height: 38px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .header-logo-img {
+    height: 32px;
+  }
+}
+
 .header-info-nav {
   display: flex;
   align-items: center;
