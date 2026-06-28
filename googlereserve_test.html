@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マスト便利屋 | 神奈川県全域対応の街の便利屋（不用品回収・草むしり・お掃除など）</title>
+  <meta name="description"
+    content="神奈川県全域対応の「マスト便利屋」です。不用品回収、庭木の剪定・草むしり、ハウスクリーニング、家具の移動や組み立てなど、暮らしのお困りごとを即日解決！見積もり無料、追加料金なしの明朗会計でシニアの方も安心。">
+  <meta name="keywords" content="便利屋,神奈川県,不用品回収,草むしり,剪定,エアコン掃除,ハウスクリーニング,家具組み立て,即日対応">
+
+  <!-- Open Graph Protocol (OGP) -->
+  <meta property="og:title" content="マスト便利屋 | 神奈川県全域対応の街の便利屋">
+  <meta property="og:description" content="不用品回収・お庭の手入れ・お掃除まで、暮らしのお困りごとをスピーディに解決します。見積もり無料・損害保険加入で安心！">
+  <meta property="og:image" content="./assets/images/hero-staff.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       Header
+       ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#header" class="logo-link" id="header-logo">
+        <div class="logo-icon">M</div>
+        <h1 class="logo-text">マスト<span>便利屋</span></h1>
+      </a>
+
+      <div class="header-info-nav">
+        <div class="header-info-box">
+          <span class="header-info-label">【年中無休】お見積もり無料！</span>
+          <div class="header-tel">
+            <svg class="header-tel-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+              fill="currentColor">
+              <path
+                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+            </svg>
+            090-2112-1080
+          </div>
+        </div>
+
+        <div class="header-cta">
+          <a href="#contact" class="btn btn-primary pulse-hover" id="header-cta-btn">無料相談する</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content fade-in-up">
+        <div class="hero-tagline-wrapper">
+          <span class="hero-area-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            神奈川県全域対応（即日駆けつけ）
+          </span>
+        </div>
+        <h2 class="hero-title">
+          あなたの<span>“困った”</span>を<br><span>“良かった”</span>に変える！
+        </h2>
+        <p class="hero-desc">
+          不用品回収、お庭のお手入れ、お部屋の片づけ、<br>ハウスクリーニングなど。<br>
+          どんな小さなことでも、親切・丁寧・誠実に対応いたします。<br>見積もりは完全無料！
+        </p>
+
+        <div class="hero-badges">
+          <div class="hero-badge-card">
+            <div class="hero-badge-icon">✓</div>
+            <div class="hero-badge-text">見積もり後の<br>追加料金一切なし</div>
+          </div>
+          <div class="hero-badge-card">
+            <div class="hero-badge-icon">✓</div>
+            <div class="hero-badge-text">地域密着<br>スピーディな即日対応</div>
+          </div>
+          <div class="hero-badge-card">
+            <div class="hero-badge-icon">✓</div>
+            <div class="hero-badge-text">女性スタッフ<br>同行指定も可能</div>
+          </div>
+          <div class="hero-badge-card">
+            <div class="hero-badge-icon">✓</div>
+            <div class="hero-badge-text">安心の損害賠償<br>保険加入済み</div>
+          </div>
+        </div>
+
+        <div class="hero-cta-buttons">
+          <a href="#contact" class="btn btn-secondary pulse-hover" id="hero-cta-line">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 5.82 2 10.53c0 2.54 1.3 4.8 3.4 6.34-.17.6-.62 2.22-.72 2.57-.12.44.15.43.32.32 1.34-.87 4.02-2.5 4.88-2.91.73.2 1.5.31 2.12.31 5.52 0 10-3.82 10-8.53S17.52 2 12 2zm-2.4 12.37H7.72c-.22 0-.4-.18-.4-.4V8.47c0-.22.18-.4.4-.4h1.88c.22 0 .4.18.4.4v5.5c0 .22-.18.4-.4.4zm3.93-3.4h-1.5c-.22 0-.4-.18-.4-.4V8.47c0-.22.18-.4.4-.4h1.5c.22 0 .4.18.4.4v2.1c0 .22-.18.4-.4.4zm3.76 3.4h-1.88c-.22 0-.4-.18-.4-.4V8.47c0-.22.18-.4.4-.4h1.88c.22 0 .4.18.4.4v5.5c0 .22-.18.4-.4.4z" />
+            </svg>
+            LINEで<br>無料相談・見積もり
+          </a>
+          <a href="tel:0120-XXX-XXX" class="btn btn-primary pulse-hover" id="hero-cta-tel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+            </svg>
+            電話でお気軽に<br>お問い合わせ
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper fade-in-up delay-100">
+        <img src="./assets/images/hero-staff.png" alt="マスト便利屋スタッフのイラスト" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About Section
+       ========================================================================== -->
+  <section class="about section-bg-white" id="about">
+    <div class="container about-grid">
+      <div class="about-image fade-in-up">
+        <img src="./assets/images/service-clean.png" alt="ハウスクリーニングの様子"
+          style="border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+      </div>
+
+      <div class="about-content fade-in-up delay-100">
+        <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+          <span class="badge">初めての方へ</span>
+          <h2 class="section-title" style="display: block; text-align: left; margin-top: 10px;">
+            マスト便利屋は、あなたの暮らしの「一番の味方」です</h2>
+        </div>
+
+        <p class="about-intro-text">
+          私たちは、神奈川県全域で地域に根ざしたサービスを提供している便利屋です。「どこに頼めばいいかわからない」「ちょっとしたことだけど人手がほしい」そんな日常生活の様々なストレスを解消するために活動しています。
+        </p>
+
+        <div class="about-highlight-box">
+          <h4 class="about-highlight-title">特にシニア層・お一人暮らしのお客様に喜ばれています</h4>
+          <p style="font-size: 0.95rem;">
+            丁寧な言葉遣い、清潔感のある身だしなみ、そして明朗な会計にこだわり、安心してお部屋に入れていただけるようスタッフへのマナー教育を徹底しています。女性スタッフのご指定も大歓迎です。</p>
+        </div>
+
+        <div class="about-stats">
+          <div class="about-stat-card card">
+            <div class="about-stat-num">98<span>%</span></div>
+            <div class="about-stat-label">お客様満足度</div>
+          </div>
+          <div class="about-stat-card card">
+            <div class="about-stat-num">5000<span>件+</span></div>
+            <div class="about-stat-label">累計ご依頼実績</div>
+          </div>
+          <div class="about-stat-card card">
+            <div class="about-stat-num">最短30<span>分</span></div>
+            <div class="about-stat-label">現地へ即日駆けつけ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Features Section (4つの強み)
+       ========================================================================== -->
+  <section class="features section-bg-soft" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">私たちの強み</span>
+        <h2 class="section-title">マスト便利屋が選ばれる4つの理由</h2>
+        <p class="section-subtitle">初めてご利用いただくお客様にも、安心してご相談いただける体制を整えています。</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Card 1 -->
+        <div class="feature-card card fade-in-up">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h3>神奈川県全域、即日対応可能</h3>
+            <p>地域密着のネットワークを活かし、急なお困りごとにもスピーディに対応。最短30分でお客様の元へ駆けつけ、その日のうちに解決できるよう尽力いたします。土日祝日も年中無休で営業しております。</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feature-card card fade-in-up delay-100">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <line x1="6" y1="21" x2="6" y2="7" />
+              <line x1="18" y1="21" x2="18" y2="7" />
+              <path d="M16 3H8a2 2 0 0 0-2 2v2h12V5a2 2 0 0 0-2-2z" />
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h3>お見積もり無料！明朗会計で安心</h3>
+            <p>神奈川県内どこでも見積もりは完全無料。事前のお見積もりで料金をはっきりとご提示し、ご納得いただいてから作業を開始します。作業後の追加請求は一切行いません。キャンセル料なども不要です。</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-card card fade-in-up">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h3>親切丁寧な接客と女性スタッフ同行</h3>
+            <p>お客様とのコミュニケーションを最優先に考え、明るく親身な対応を徹底。一人暮らしの女性やご年配の方に配慮し、女性スタッフの指名・同行も承っております。お家にあげるのが少し不安という方もご安心ください。</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="feature-card card fade-in-up delay-100">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h3>最高1億円の損害賠償保険に加入</h3>
+            <p>万全の注意を払って作業を行いますが、万が一作業中にお客様の大切な家具や家屋を傷つけてしまった場合に備え、損害賠償保険に加入しています。責任を持って誠実かつ迅速な補償対応を行います。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Services Section (サービス内容)
+       ========================================================================== -->
+  <section class="services section-bg-white" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">サービスメニュー</span>
+        <h2 class="section-title">こんなお困りごと、何でもお任せください</h2>
+        <p class="section-subtitle">基本料金（1名1時間 ¥3,300〜）＋ 出張費にて、多様なお困りごとに柔軟に対応します。</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card card fade-in-up">
+          <div class="service-img-wrapper">
+            <img src="./assets/images/service-trash.png" alt="不用品回収・お部屋の片付け" class="service-img">
+            <div class="service-price-badge">目安：¥8,800〜</div>
+          </div>
+          <div class="service-content">
+            <h3>不用品回収・お部屋の片付け</h3>
+            <p>タンスや冷蔵庫などの大きな粗大ゴミの処分から、ごみ屋敷の片付け、生前整理・遺品整理まで幅広く対応。仕分けから搬出、お掃除まで丸ごとお任せください。</p>
+            <div class="service-examples">
+              <div class="service-examples-title">ご依頼の例：</div>
+              <ul class="service-examples-list">
+                <li>引っ越し前後の粗大ゴミ処分</li>
+                <li>実家の生前整理・荷物整理</li>
+                <li>1部屋丸ごとゴミの片付け</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card card fade-in-up delay-100">
+          <div class="service-img-wrapper">
+            <img src="./assets/images/service-garden.png" alt="お庭のお手入れ・草むしり" class="service-img">
+            <div class="service-price-badge">目安：¥3,300〜</div>
+          </div>
+          <div class="service-content">
+            <h3>お庭の手入れ・草むしり・剪定</h3>
+            <p>面倒な雑草の草むしりや草刈り、伸びすぎた植木・生垣の剪定、不要になった立ち木の伐採、害虫駆除など。お庭をキレイに整えて維持するお手伝いをします。</p>
+            <div class="service-examples">
+              <div class="service-examples-title">ご依頼の例：</div>
+              <ul class="service-examples-list">
+                <li>お庭全体の草むしり・防草シート施工</li>
+                <li>お隣に伸びた枝の剪定</li>
+                <li>枯れ木の伐採と処分</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card card fade-in-up delay-200">
+          <div class="service-img-wrapper">
+            <img src="./assets/images/service-clean.png" alt="ハウスクリーニング" class="service-img">
+            <div class="service-price-badge">目安：¥8,800〜</div>
+          </div>
+          <div class="service-content">
+            <h3>ハウスクリーニング・水回り掃除</h3>
+            <p>普段のお掃除では落としきれないエアコンの内部洗浄、換気扇の頑固な油汚れ、お風呂のカビ取りなど、プロの機材と洗剤で徹底的にピカピカに磨き上げます。</p>
+            <div class="service-examples">
+              <div class="service-examples-title">ご依頼の例：</div>
+              <ul class="service-examples-list">
+                <li>エアコンの分解・高圧洗浄</li>
+                <li>キッチン・お風呂の本格清掃</li>
+                <li>窓ガラス・網戸のサッシ清掃</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card card fade-in-up">
+          <div class="service-img-wrapper">
+            <img src="./assets/images/service-furniture.png" alt="家具移動・組み立て" class="service-img">
+            <div class="service-price-badge">目安：¥3,300〜</div>
+          </div>
+          <div class="service-content">
+            <h3>家具の移動・組み立て・DIY</h3>
+            <p>ネット通販で買った組立家具の組み立て代行や、模様替えに伴う大きなタンスやベッドの別室への移動など、重くて危険な作業を安全・丁寧に行います。</p>
+            <div class="service-examples">
+              <div class="service-examples-title">ご依頼の例：</div>
+              <ul class="service-examples-list">
+                <li>通販のカラーボックスや本棚の組み立て</li>
+                <li>1階から2階へのタンスの運搬</li>
+                <li>手すりの取り付けなどのDIY作業</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card card fade-in-up delay-100">
+          <div class="service-img-wrapper">
+            <div
+              style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); height: 100%; display: flex; align-items: center; justify-content: center;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none"
+                stroke="var(--primary-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            </div>
+            <div class="service-price-badge">目安：¥5,500〜</div>
+          </div>
+          <div class="service-content">
+            <h3>水回りトラブル・簡単な修繕</h3>
+            <p>蛇口の水漏れやパッキンの交換、詰まった排水口の解消、破れた網戸の張り替え、電球の交換、雨樋の掃除など、家の「気になる小修理」に柔軟に対応します。</p>
+            <div class="service-examples">
+              <div class="service-examples-title">ご依頼の例：</div>
+              <ul class="service-examples-list">
+                <li>キッチン蛇口の水漏れパッキン交換</li>
+                <li>網戸の張り替え（1枚〜）</li>
+                <li>高所の電球交換・LEDへの切り替え</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card card fade-in-up delay-200">
+          <div class="service-img-wrapper">
+            <div
+              style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); height: 100%; display: flex; align-items: center; justify-content: center;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none"
+                stroke="var(--primary-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0" />
+              </svg>
+            </div>
+            <div class="service-price-badge">目安：¥2,200〜</div>
+          </div>
+          <div class="service-content">
+            <h3>買い物代行・日常生活のお手伝い</h3>
+            <p>忙しいご家族に代わっての買い物代行、旅行中のペットの餌やり、お散歩の付き添い、役所の手続き代行、お墓参りの代行など、日常のあらゆるお困りごとに寄り添います。</p>
+            <div class="service-examples">
+              <div class="service-examples-title">ご依頼の例：</div>
+              <ul class="service-examples-list">
+                <li>お米や灯油などの重いお買い物代行</li>
+                <li>お墓の掃除とお墓参りの代行</li>
+                <li>順番待ちやイベントの並び代行</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-footer fade-in-up">
+        <p class="services-footer-text">「こんなことも頼めるの？」と思うような内容でも、まずはお気軽にご相談ください！無料でお見積もりいたします。</p>
+        <a href="#contact" class="btn btn-primary btn-lg pulse-hover">無料で相談・お見積もり</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Steps Section (ご利用の流れ)
+       ========================================================================== -->
+  <section class="steps section-bg-soft" id="steps">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">ご利用の流れ</span>
+        <h2 class="section-title">ご相談から作業完了までの4ステップ</h2>
+        <p class="section-subtitle">お申し込みはとても簡単。まずはお気軽にお悩みをお聞かせください。</p>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card fade-in-up">
+          <div class="step-num">01</div>
+          <h3>お問い合せ・ご相談</h3>
+          <p>お電話、LINE、またはWebのフォームよりお気軽にご連絡ください。「こんなことで困っている」という内容を簡単にお伺いします。</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card fade-in-up delay-100">
+          <div class="step-num">02</div>
+          <h3>無料見積もり・日程調整</h3>
+          <p>内容をお伺いし、概算見積もりをご提示。必要であれば現地無料調査を行い、正確なお見積もりをお出しします。作業日をご相談します。</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card fade-in-up delay-200">
+          <div class="step-num">03</div>
+          <h3>迅速・丁寧に作業</h3>
+          <p>お約束の日時にスタッフがお伺いし、迅速かつ丁寧に作業を行います。近隣の皆様へも十分に配慮し、マナーを守って進めます。</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card fade-in-up delay-300">
+          <div class="step-num">04</div>
+          <h3>作業確認・お支払い</h3>
+          <p>作業が完了しましたら、お客様に仕上がりをご確認いただきます。ご満足いただけましたら、その場または所定の方法でお支払いとなります。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Testimonials Section (お客様の声)
+       ========================================================================== -->
+  <section class="testimonials section-bg-white" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">お客様の声</span>
+        <h2 class="section-title">ご利用いただいたお客様からの喜びの声</h2>
+        <p class="section-subtitle">マスト便利屋をご利用いただいた、神奈川県内のお客様からの感想です。</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card card fade-in-up">
+          <div class="testimonial-header">
+            <div>
+              <span class="testimonial-user">K・G様（60代女性）</span>
+              <div class="testimonial-meta">横浜市青葉区 / ご実家の生前整理</div>
+            </div>
+            <span class="testimonial-tag">不用品回収</span>
+          </div>
+          <div class="testimonial-body">
+            「両親が住んでいた実家の荷物整理と不用品の処分をお願いしました。どこから手をつければいいか途方に暮れていましたが、スタッフの皆様が優しく声を掛けながらテキパキと作業してくださり、あっという間に片付きました。見積もり通りで安心でした。」
+          </div>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card card fade-in-up delay-100">
+          <div class="testimonial-header">
+            <div>
+              <span class="testimonial-user">T・S様（70代男性）</span>
+              <div class="testimonial-meta">藤沢市 / お庭の草むしりと剪定</div>
+            </div>
+            <span class="testimonial-tag">お庭の手入れ</span>
+          </div>
+          <div class="testimonial-body">
+            「腰を痛めてしまい、庭の草むしりができずに荒れ放題になって困っていました。マスト便利屋さんに相談したところ、即日見に来てくれて翌日にはキレイに草を抜いて木もさっぱりと整えてもらえました。本当に助かりました、また定期的に頼みたいです。」
+          </div>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card card fade-in-up delay-200">
+          <div class="testimonial-header">
+            <div>
+              <span class="testimonial-user">U・M様（30代女性・主婦）</span>
+              <div class="testimonial-meta">川崎市中原区 / 家具組み立て＆お掃除</div>
+            </div>
+            <span class="testimonial-tag">複数まとめて</span>
+          </div>
+          <div class="testimonial-body">
+            「ネットで購入した大きな本棚の組み立てと、エアコンの掃除をまとめてお願いしました。小さな子供がいるので、女性スタッフが同行してくれたのがとても安心でした。本棚はガタつきなく設置され、エアコンも驚くほど綺麗になり大満足です！」
+          </div>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ Section (よくある質問)
+       ========================================================================== -->
+  <section class="faq section-bg-soft" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">よくある質問</span>
+        <h2 class="section-title">Q&A よくあるご質問</h2>
+        <p class="section-subtitle">ご依頼にあたって、多く寄せられる質問にお答えします。</p>
+      </div>
+
+      <div class="faq-wrapper">
+        <!-- FAQ 1 -->
+        <div class="faq-item fade-in-up">
+          <div class="faq-question">
+            <span class="faq-question-text">見積もりに費用はかかりますか？また、断っても大丈夫ですか？</span>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              出張お見積もりは完全無料で行っております。お見積もり金額にご納得いただけない場合は、その場でお断りいただいても費用（キャンセル料や出張費など）は一切発生しませんので、まずはお気軽にご相談ください。
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item fade-in-up">
+          <div class="faq-question">
+            <span class="faq-question-text">当日、急に追加料金が発生することはありますか？</span>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              見積もり時にご提示した金額から、当日に勝手に追加請求をすることはございません。もし作業中にお客様から「追加でこれもやってほしい」などのご要望をいただいた場合は、その場で追加分のお見積もりを再度ご提示し、ご納得いただいてから作業いたします。
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item fade-in-up">
+          <div class="faq-question">
+            <span class="faq-question-text">女性のスタッフに来てもらうことは可能ですか？</span>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              はい、可能です。お一人暮らしの女性のお客様や、シニアのお客様からご好評をいただいております。お電話やお問い合わせフォームからご連絡いただく際に、「女性スタッフ同行希望」とお伝えください（予約状況により調整が必要な場合があります）。
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item fade-in-up">
+          <div class="faq-question">
+            <span class="faq-question-text">対応エリアは神奈川県のどこまでですか？</span>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              横浜市、川崎市、相模原市、藤沢市、横須賀市、鎌倉市など、神奈川県全域に対応しております。遠方の片付けや、空き家になっているご実家の手入れなども柔軟に対応いたします。その他の地域もお気軽にお問い合わせください。
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item fade-in-up">
+          <div class="faq-question">
+            <span class="faq-question-text">万が一、家の壁などを傷つけられた場合の保証はありますか？</span>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              はい。作業は細心の注意を払い安全第一で行いますが、万が一の事態に備え、最高1億円まで補償される損害賠償保険に加入しております。作業によって生じた物損やトラブルに対しては、誠意をもって速やかに補償・修繕の手続きを行います。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact / CTA Section (お問い合わせ)
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-layout">
+      <!-- Info Panel -->
+      <div class="contact-info-panel fade-in-up">
+        <span class="badge">ご相談窓口</span>
+        <h3>お気軽にお問い合わせください</h3>
+        <p>「こんなことも頼める？」といった小さなご質問から、現地での無料見積もり依頼まで、親切丁寧に対応いたします。お客様のご都合の良い方法でご連絡ください。</p>
+
+        <div class="contact-channels">
+          <!-- Tel Card -->
+          <div class="contact-channel-card tel">
+            <div class="contact-channel-icon">📞</div>
+            <div class="contact-channel-detail">
+              <h4>お電話での相談（受付：年中無休）</h4>
+              <div class="contact-channel-value"><a href="tel:0120-XXX-XXX">0120-XXX-XXX</a></div>
+            </div>
+            <a href="tel:0120-XXX-XXX" class="btn btn-primary contact-channel-btn">電話する</a>
+          </div>
+
+          <!-- LINE Card -->
+          <div class="contact-channel-card line">
+            <div class="contact-channel-icon">💬</div>
+            <div class="contact-channel-detail">
+              <h4>LINEでのお見積もり（24時間受付）</h4>
+              <div class="contact-channel-value">ID: @must-benriya</div>
+            </div>
+            <a href="#contact" class="btn btn-success contact-channel-btn">友だち追加</a>
+          </div>
+        </div>
+
+        <div
+          style="background-color: var(--bg-white); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color); font-size: 0.9rem;">
+          <strong>対応エリア：神奈川県全域</strong><br>
+          横浜市・川崎市・相模原市・藤沢市・横須賀市・平塚市・鎌倉市・小田原市・茅ヶ崎市・逗子市・三浦市・秦野市・厚木市・大和市・伊勢原市・海老名市・座間市・南足柄市・綾瀬市・葉山町・寒川町・大磯町・二宮町・足柄上郡・愛川町・清川村など、全域対応！
+        </div>
+      </div>
+
+      <!-- Form Panel -->
+      <div class="contact-form-panel fade-in-up delay-100" id="form-panel">
+        <!-- Form Content -->
+        <form action="#" method="POST" id="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">お名前 <span>必須</span></label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="例：山田 太郎" required>
+          </div>
+
+          <div class="form-group">
+            <label for="tel" class="form-label">電話番号 <span>必須</span></label>
+            <input type="tel" id="tel" name="tel" class="form-control" placeholder="例：090-0000-0000" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">メールアドレス <span>必須</span></label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="例：example@mail.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="service" class="form-label">ご希望のサービス <span>必須</span></label>
+            <select id="service" name="service" class="form-control" required>
+              <option value="" disabled selected>選択してください</option>
+              <option value="trash">不用品回収・お部屋の片付け</option>
+              <option value="garden">お庭のお手入れ・草むしり・剪定</option>
+              <option value="clean">ハウスクリーニング・エアコン掃除</option>
+              <option value="furniture">家具移動・組み立て・DIYサポート</option>
+              <option value="water">水回りトラブル・簡単な修繕</option>
+              <option value="helper">買い物代行・日常生活のお手伝い</option>
+              <option value="other">その他（下記欄にご記入ください）</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="visit-date" class="form-label">ご希望の作業日 <span>必須</span></label>
+            <div class="calendar-input-wrapper">
+              <input type="text" id="visit-date" name="visit-date" class="form-control" placeholder="下のカレンダーから日付を選択してください" readonly required style="cursor: pointer; background-color: var(--bg-soft);">
+            </div>
+            
+            <!-- 予約状況カレンダー -->
+            <div class="reservation-calendar-container">
+              <div class="calendar-header">
+                <button type="button" id="prev-month-btn" class="calendar-nav-btn" aria-label="前月へ">◀</button>
+                <div id="calendar-month-title" class="calendar-month-title">2026年6月</div>
+                <button type="button" id="next-month-btn" class="calendar-nav-btn" aria-label="翌月へ">▶</button>
+              </div>
+              <div class="calendar-weekdays">
+                <div class="sunday">日</div>
+                <div>月</div>
+                <div>火</div>
+                <div>水</div>
+                <div>木</div>
+                <div>金</div>
+                <div class="saturday">土</div>
+              </div>
+              <div id="calendar-days" class="calendar-days">
+                <!-- JSで動的生成 -->
+              </div>
+              <div class="calendar-legend">
+                <span><span class="legend-icon legend-ok">○</span>空きあり</span>
+                <span><span class="legend-icon legend-warn">△</span>残りわずか</span>
+                <span><span class="legend-icon legend-ng">×</span>空きなし</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Reserve Test Group -->
+          <div class="form-group" style="margin-top: 30px; border-top: 1px dashed var(--border-color); padding-top: 20px;">
+            <label class="form-label">【比較用】Googleカレンダーから直接予約（インライン表示）</label>
+            <div style="background-color: var(--bg-white); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; padding: 10px; box-shadow: var(--shadow-sm);">
+              <!-- Google Calendar Appointment Scheduling begin -->
+              <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3KKRGDiM5cHDeOu_ZcwRIqQXXnv0Yoh8O47OtyepfR8bs1e2TyGA1U4mCFF74S8RrxzXqb7Niu?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+              <!-- end Google Calendar Appointment Scheduling -->
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">お問い合わせ内容 <span>必須</span></label>
+            <textarea id="message" name="message" class="form-control" placeholder="お困りごとの内容、ご希望の作業時間帯、場所の詳細などをご記入ください。"
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg pulse-hover"
+            style="width: 100%; border-radius: var(--radius-sm);" id="form-submit-btn">この内容で無料見積もりを申し込む</button>
+
+          <p class="form-privacy-note">※ご送信いただいた個人情報は、お見積もり・お問い合わせ対応の目的以外には使用いたしません。</p>
+        </form>
+
+        <!-- Form Success State -->
+        <div class="form-success-message" id="form-success-message">
+          <div class="form-success-icon">✓</div>
+          <h4 class="form-success-title">お問い合わせを受け付けました</h4>
+          <p class="form-success-text">お見積もり・お問い合わせいただきありがとうございます。<br>確認後、担当スタッフより1営業日以内にお電話またはメールにてご連絡差し上げます。</p>
+          <button type="button" class="btn btn-outline" style="margin-top: 30px; border-radius: var(--radius-sm);"
+            id="form-reset-btn">フォームに戻る</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">マスト<span>便利屋</span></div>
+          <p class="footer-desc">神奈川県全域のお困りごとをスピーディに解決する便利屋サービス。即日対応・明朗会計・安心保険加入で暮らしをサポートします。</p>
+        </div>
+
+        <div>
+          <h4 class="footer-links-title">メニュー</h4>
+          <ul class="footer-links-list">
+            <li><a href="#about">初めての方へ</a></li>
+            <li><a href="#features">選ばれる強み</a></li>
+            <li><a href="#services">サービス・料金</a></li>
+            <li><a href="#steps">ご利用の流れ</a></li>
+            <li><a href="#testimonials">お客様の声</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-links-title">運営者情報</h4>
+          <table class="footer-company-table">
+            <tr>
+              <td>事業者名</td>
+              <td>マスト便利屋 神奈川本店</td>
+            </tr>
+            <tr>
+              <td>受付時間</td>
+              <td>8:00 〜 20:00（年中無休）</td>
+            </tr>
+            <tr>
+              <td>対応エリア</td>
+              <td>神奈川県全域</td>
+            </tr>
+            <tr>
+              <td>主要サービス</td>
+              <td>不用品回収・片付け、お庭の草むしり・剪定、掃除、家具移動など</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 マスト便利屋 All Rights Reserved.</p>
+        <a href="#header" class="footer-privacy-link">プライバシーポリシー</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Link -->
+  <script src="main.js"></script>
+</body>
+
+</html>
