@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /memo
+Disallow: /.git/
+
+Sitemap: https://masuto-benriya.com/sitemap.xml
