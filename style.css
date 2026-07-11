@@ -864,6 +864,22 @@ section {
   font-size: 1.1rem;
 }
 
+.testimonial-stars .half {
+  position: relative;
+  display: inline-block;
+  color: #dddddd;
+}
+
+.testimonial-stars .half::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  color: var(--secondary-color);
+}
+
 /* ==========================================================================
    FAQ Section
    ========================================================================== */
@@ -961,7 +977,24 @@ section {
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  gap: 50px;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "info form"
+    "area form";
+  gap: 30px 50px;
+}
+
+.contact-info-panel {
+  grid-area: info;
+}
+
+.contact-area-panel {
+  grid-area: area;
+  align-self: start;
+}
+
+.contact-form-panel {
+  grid-area: form;
 }
 
 .contact-info-panel h3 {
@@ -1048,6 +1081,24 @@ section {
 
 .form-group {
   margin-bottom: 20px;
+}
+
+.form-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-title span {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
 }
 
 .form-label {
@@ -1365,6 +1416,15 @@ textarea.form-control {
   
   .steps-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .contact-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "info"
+      "form"
+      "area";
+    gap: 20px;
   }
   
   .contact-form-panel {
