@@ -22,7 +22,7 @@ button,input,textarea,select{font:inherit}
 .header{position:fixed;inset:0 0 auto;z-index:80;background:var(--ink);color:var(--white);border-bottom:1px solid #ffffff26}
 .head{height:var(--header-h);display:flex;align-items:center;gap:18px}
 .brand{display:flex;align-items:center;gap:10px;white-space:nowrap;font-family:var(--display);font-size:17px;letter-spacing:-.04em}
-.brand img{width:42px;height:42px;padding:6px 8px 6px 5px;object-fit:contain;background:var(--orange);border-radius:50%}
+.brand img{content:url("must_benriya_logo_orange.png");width:42px;height:42px;object-fit:contain}
 .brand span{color:var(--orange)}
 nav{display:flex;gap:0;margin-left:auto;height:100%;border-left:1px solid #ffffff26}
 nav a{display:flex;align-items:center;padding:0 16px;border-right:1px solid #ffffff26;font-size:12px;font-weight:700;transition:background .2s,color .2s}
@@ -207,7 +207,7 @@ dd i{margin-left:5px;padding:2px 5px;background:var(--yellow);color:var(--ink);f
 /* Privacy legacy compatibility */
 .header-container{min-height:var(--header-h);display:flex;align-items:center;justify-content:center}
 .logo-link{display:flex;align-items:center;gap:10px;color:var(--white)}
-.header-logo-img{width:45px;height:45px;padding:6px 8px 6px 5px;object-fit:contain;background:var(--orange);border-radius:50%}
+.header-logo-img{content:url("must_benriya_logo_orange.png");width:45px;height:45px;object-fit:contain}
 .logo-text{margin:0;font-family:var(--display);font-size:18px}.logo-text span{color:var(--orange)}
 .privacy-page{background:var(--white)}
 .footer-bottom{text-align:center;color:#ffffff77;font-size:11px}
