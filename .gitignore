@@ -9,3 +9,13 @@ memo
 *.ics
 *.csv
 googlereserve_test.html
+
+# macOSの管理ファイルと、公開用に選別する前の写真原本
+.DS_Store
+マスト便利屋事例/
+
+# 公開画像は軽量なWebPを使用し、変換前JPEGはコミットしない
+assets/cases/*.jpg
+!assets/cases/og-work.jpg
+assets/cases/grass-yard-*.webp
+assets/cases/sheet-after.webp

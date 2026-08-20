@@ -1,0 +1,20 @@
+# マスト便利屋 デザインブリーフ
+
+- Purpose: 神奈川県で便利屋を探す人に、対応範囲の広さと実際の仕事ぶりを短時間で伝え、電話・LINE相談へつなげる。
+- Context: トップページ＋施工事例一覧のサービスサイト。構成と掲載内容は現行骨組みを維持する。
+- Tone: Japanese workwear editorial。現場で使う作業票・識別色・道具箱のような、実直で頼れる視覚言語。
+- Differentiator: Before / After写真を「WORK RECORD」として大きく見せ、施工記録そのものをブランド表現にする。
+- Constraints: 静的HTML/CSS/JS、実写真を使用、電話・LINE導線、モバイル対応、未確認の所在地・料金・作業時間は公開しない、損害賠償保険表現は不使用。
+
+## Local design system
+
+- Colors: ink navy `#101820`、warm paper `#F2EFE7`、white `#FFFFFF`、safety orange `#FF5A36`、signal yellow `#F4D64A`、steel `#8C969C`。
+- Typography: 見出しは `Dela Gothic One`、本文は `BIZ UDPGothic`。英数字ラベルは太字・字間広め。
+- Spacing: 8px基準。セクションはデスクトップ112–128px、モバイル72–84px。
+- Shape: 原則角丸なし。1–2pxの罫線、強い面分け、写真は切り抜かずドキュメンタリー調。
+- Components: 実線ボタン、作業票ラベル、番号付きサービス行、Before/After比較、施工データ表。
+- Motion: 初回の短いスライド表示、ホバーで罫線と写真がわずかに移動。`prefers-reduced-motion`対応。
+- Service rows: 実写真がある01〜04は該当事例へ、写真がない05〜06はサービス選択済みの問い合わせフォームへ誘導し、リンク文言で遷移先を明示する。
+- Contact CTA: 黄色セクション上の問い合わせカードは黒い土台を持ち、ホバーや端数幅でボタンが動いた際も背景色が露出しない。
+- Hero CTA: LINE・電話を主要導線として並べ、その下に白い全幅ボタンで24時間受付の問い合わせフォーム導線を置く。
+- Section numbering: トップページの主要セクションを01〜07で連番化し、各セクション右上に薄い大型数字を背景要素として配置する。

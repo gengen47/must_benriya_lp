@@ -1,0 +1,45 @@
+<section class="inquiry section white" id="inquiry">
+  <div class="wrap inquiry-layout">
+    <aside class="inquiry-intro">
+      <p class="eyebrow">REQUEST FORM</p>
+      <h2>無料見積もりを<br>申し込む。</h2>
+      <p>分かる範囲でご入力ください。内容を確認後、担当スタッフから1営業日以内を目安にご連絡します。</p>
+      <div class="inquiry-notes">
+        <p><b>01</b><span>入力は約3分</span></p>
+        <p><b>02</b><span>見積もり無料</span></p>
+        <p><b>03</b><span>作業前に料金をご案内</span></p>
+      </div>
+      <div class="inquiry-fallback">
+        <small>お急ぎの場合・送信できない場合</small>
+        <a href="tel:09021121080">090-2112-1080</a>
+        <a href="https://line.me/R/ti/p/@frb0743r">LINEで相談する →</a>
+      </div>
+    </aside>
+    <div class="form-panel" id="form-panel">
+      <div class="form-panel-head"><span>FORM / 01</span><b>お問い合わせ内容</b><small><i>*</i> は必須項目です</small></div>
+      <form id="contact-form" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="name">お名前 <i>*</i></label><input id="name" name="name" type="text" autocomplete="name" placeholder="例：山田 太郎" required><p class="field-error" id="name-error"></p></div>
+          <div class="field"><label for="tel">電話番号 <i>*</i></label><input id="tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="例：090-0000-0000" required><p class="field-error" id="tel-error"></p></div>
+          <div class="field full"><label for="email">メールアドレス <i>*</i></label><input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="例：example@mail.com" required><p class="field-error" id="email-error"></p></div>
+          <div class="field"><label for="service">ご希望のサービス <i>*</i></label><select id="service" name="service" required><option value="">選択してください</option><option value="trash">不用品回収・お部屋の片付け</option><option value="garden">お庭のお手入れ・草むしり・剪定</option><option value="clean">ハウスクリーニング・エアコン掃除</option><option value="furniture">家具移動・組み立て・DIYサポート</option><option value="water">水回りトラブル・簡単な修繕</option><option value="helper">買い物代行・日常生活のお手伝い</option><option value="other">その他</option></select><p class="field-error" id="service-error"></p></div>
+          <div class="field"><label for="work-area">作業場所の市区町村 <i>*</i></label><select id="work-area" name="work-area" required>
+            <option value="">選択してください</option>
+            <optgroup label="主要都市"><option>横浜市</option><option>川崎市</option><option>相模原市</option></optgroup>
+            <optgroup label="その他 市部"><option>横須賀市</option><option>平塚市</option><option>鎌倉市</option><option>藤沢市</option><option>小田原市</option><option>茅ヶ崎市</option><option>逗子市</option><option>三浦市</option><!--CITY--></optgroup>
+            <option value="other">その他（県外・直接入力）</option>
+          </select><p class="field-error" id="work-area-error"></p></div>
+          <div class="field full" id="work-area-other-group" hidden><label for="work-area-other">作業場所の詳細 <i>*</i></label><input id="work-area-other" name="work-area-other" type="text" placeholder="例：東京都町田市"><p class="field-error" id="work-area-other-error"></p></div>
+          <div class="field full"><label for="visit-date">ご希望の作業日 <i>*</i></label><input id="visit-date" name="visit-date" type="text" placeholder="カレンダーから選択してください" readonly required><p class="field-error" id="visit-date-error"></p>
+            <div class="calendar" aria-label="予約状況カレンダー"><div class="calendar-head"><button type="button" id="prev-month" aria-label="前月へ">←</button><b id="calendar-title"></b><button type="button" id="next-month" aria-label="翌月へ">→</button></div><div class="calendar-week"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-days" id="calendar-days"></div><div class="calendar-legend"><span><i>○</i> 空きあり</span><span><i>△</i> 残りわずか</span><span><i>×</i> 空きなし</span></div><p class="calendar-status" id="calendar-status" aria-live="polite">予約状況を読み込んでいます</p></div>
+          </div>
+          <div class="field full"><label for="message">お問い合わせ内容 <i>*</i></label><textarea id="message" name="message" rows="6" placeholder="お困りごとの内容、ご希望の時間帯、場所の詳細などをご記入ください。" required></textarea><p class="field-error" id="message-error"></p></div>
+          <div class="field full form-consent"><label><input id="privacy-consent" type="checkbox" required><span><a href="privacy.html" target="_blank">プライバシーポリシー</a>に同意する <i>*</i></span></label><p class="field-error" id="privacy-consent-error"></p></div>
+          <div class="field full"><button class="form-submit" id="form-submit" type="submit"><span>この内容で無料見積もりを申し込む</span><b>SUBMIT →</b></button><p class="form-caption">入力情報は、お見積もり・お問い合わせ対応の目的にのみ使用します。</p></div>
+        </div>
+      </form>
+      <div class="form-state" id="form-success" hidden><b>送信完了</b><h3>お問い合わせを受け付けました。</h3><p>確認後、担当スタッフより1営業日以内にお電話またはメールでご連絡します。</p><button type="button" id="form-reset">別の内容を送る</button></div>
+      <div class="form-state error-state" id="form-failure" hidden><b>送信できませんでした</b><h3>時間をおいて再度お試しください。</h3><p>お急ぎの場合は、電話またはLINEをご利用ください。</p><div><a href="tel:09021121080">電話 090-2112-1080</a><a href="https://line.me/R/ti/p/@frb0743r">LINEで相談</a></div><button type="button" id="form-retry">入力内容に戻る</button></div>
+    </div>
+  </div>
+</section>

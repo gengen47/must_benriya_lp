@@ -2,14 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://masuto-benriya.com/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-08-21</lastmod>
   </url>
   <url>
-    <loc>https://masuto-benriya.com/privacy.html</loc>
-    <lastmod>2026-07-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://masuto-benriya.com/cases.html</loc>
+    <lastmod>2026-08-21</lastmod>
   </url>
 </urlset>
