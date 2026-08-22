@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f2e8"/>
+  <rect width="1200" height="18" fill="#ef6b36"/>
+  <circle cx="255" cy="315" r="220" fill="#ef6b36" opacity=".08"/>
+  <image x="72" y="161" width="366" height="308" xlink:href="../../must_benriya_logo_orange.png"/>
+  <line x1="492" y1="102" x2="492" y2="528" stroke="#d8d0c3" stroke-width="2"/>
+  <text x="560" y="185" fill="#1f2b31" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="58" font-weight="800" letter-spacing="1">マスト<tspan fill="#ef6b36">便利屋</tspan></text>
+  <text x="560" y="248" fill="#536168" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="27" font-weight="700" letter-spacing="3">神奈川県全域｜見積もり無料</text>
+  <text x="560" y="357" fill="#1f2b31" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="50" font-weight="800">暮らしの困りごと、</text>
+  <text x="560" y="425" fill="#ef6b36" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="55" font-weight="800">まとめて解決。</text>
+  <line x1="560" y1="470" x2="1102" y2="470" stroke="#1f2b31" stroke-width="3"/>
+  <text x="560" y="518" fill="#536168" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="24">片付け・草刈り・家具組み立て・お墓掃除</text>
+  <text x="560" y="566" fill="#1f2b31" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="1.5">masuto-benriya.com</text>
+</svg>
