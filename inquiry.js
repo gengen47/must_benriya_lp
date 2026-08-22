@@ -1,4 +1,4 @@
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbwVpE7-hlpb8AaLYf3zEkNOs-VOYRM-7U5kwLq8l8XrHmQaMkLPQqiUgMYWIlx08yIe/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbzRhAxvvITrQRVf4EWfqnLCnHzMfhQma66S81NX0PpZcBx3GoAYwCoQer4eqnO1ORkp/exec';
 const LIMIT_FULL = 8;
 const LIMIT_WARN = 3;
 
